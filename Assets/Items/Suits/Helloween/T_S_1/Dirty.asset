@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99b69cb9e3e8c8b48abb18863e2a2e76, type: 3}
+  m_Name: Dirty
+  m_EditorClassIdentifier: 
+  Pack: {fileID: 11400000, guid: abe9b4b074749ed458aa13657d83d20b, type: 2}
+  Category: 16
+  TemplatePrefab: {fileID: 5593415220975691866, guid: 4b36848a0d959854d8a0d4a780404e6d,
+    type: 3}
+  SameTpvFpv: 1
+  FPV:
+    Mesh: {fileID: 4314143392395075878, guid: 9b319f3e25c2244468f463f63147319a, type: 3}
+    Materials:
+    - {fileID: 2100000, guid: 6f3d4693d1549a147b6f80493cabdd25, type: 2}
+  TPV:
+    Mesh: {fileID: 4314143392395075878, guid: 9b319f3e25c2244468f463f63147319a, type: 3}
+    Materials:
+    - {fileID: 2100000, guid: 6f3d4693d1549a147b6f80493cabdd25, type: 2}
+  SourceModel: {fileID: 0}
+  Avatar: {fileID: 9000000, guid: 4be6fb6e35ceb314e938b2bc4d8f6655, type: 3}
+  AssetID: OverallHLWDirty_T_S_1

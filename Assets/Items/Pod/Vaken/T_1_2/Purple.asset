@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99b69cb9e3e8c8b48abb18863e2a2e76, type: 3}
+  m_Name: Purple
+  m_EditorClassIdentifier: 
+  Pack: {fileID: 11400000, guid: ec7ea427df19895499b6c1329529fd61, type: 2}
+  Category: 128
+  TemplatePrefab: {fileID: 298310253433212809, guid: 5c87cb27cb6b32d43916a320e78e617c,
+    type: 3}
+  SameTpvFpv: 0
+  FPV:
+    Mesh: {fileID: -6718046894773725384, guid: 63673189998e62c47b97fa8130452597, type: 3}
+    Materials:
+    - {fileID: 2100000, guid: cbcb7320791f6094f820fef3dfc9fe56, type: 2}
+  TPV:
+    Mesh: {fileID: -9039747116666554635, guid: 4be6fb6e35ceb314e938b2bc4d8f6655, type: 3}
+    Materials:
+    - {fileID: 2100000, guid: cbcb7320791f6094f820fef3dfc9fe56, type: 2}
+  SourceModel: {fileID: 2151116640672834102, guid: d512347999df1124598e4b52bcabcb58,
+    type: 3}
+  Avatar: {fileID: 9000000, guid: 63673189998e62c47b97fa8130452597, type: 3}
+  AssetID: PodVakenPurple
