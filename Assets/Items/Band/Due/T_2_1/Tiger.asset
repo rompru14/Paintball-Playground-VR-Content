@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99b69cb9e3e8c8b48abb18863e2a2e76, type: 3}
+  m_Name: Tiger
+  m_EditorClassIdentifier: 
+  Pack: {fileID: 11400000, guid: 8f38a6581c496c748be9432ef1524b4c, type: 2}
+  Category: 8
+  TemplatePrefab: {fileID: 1247482631140209610, guid: 86fe90560abc7e64bb6b92a047a3201b,
+    type: 3}
+  SameTpvFpv: 1
+  FPV:
+    Mesh: {fileID: 8024333197558075612, guid: b7719232edb026645a0ad0e74a95aa71, type: 3}
+    Materials:
+    - {fileID: 2100000, guid: f0ce1c7a71c29ca4fae28eb3b19ffc8d, type: 2}
+  TPV:
+    Mesh: {fileID: 8024333197558075612, guid: b7719232edb026645a0ad0e74a95aa71, type: 3}
+    Materials:
+    - {fileID: 2100000, guid: f0ce1c7a71c29ca4fae28eb3b19ffc8d, type: 2}
+  SourceModel: {fileID: 0}
+  Avatar: {fileID: 0}
+  AssetID: HeadbandDueTiger
