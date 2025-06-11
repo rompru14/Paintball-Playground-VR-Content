@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!319 &31900000
+AvatarMask:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Custom_Hand_L_Index
+  m_Mask: 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  m_Elements:
+  - m_Path: 
+    m_Weight: 1
+  - m_Path: Armature
+    m_Weight: 1
+  - m_Path: Armature/b_l_wrist
+    m_Weight: 1
+  - m_Path: Armature/b_l_wrist/b_l_forearm_stub
+    m_Weight: 1
+  - m_Path: Armature/b_l_wrist/b_l_index1
+    m_Weight: 1
+  - m_Path: Armature/b_l_wrist/b_l_index1/b_l_index2
+    m_Weight: 1
+  - m_Path: Armature/b_l_wrist/b_l_index1/b_l_index2/b_l_index3
+    m_Weight: 0
+  - m_Path: Armature/b_l_wrist/b_l_middle1
+    m_Weight: 1
+  - m_Path: Armature/b_l_wrist/b_l_middle1/b_l_middle2
+    m_Weight: 1
+  - m_Path: Armature/b_l_wrist/b_l_middle1/b_l_middle2/b_l_middle3
+    m_Weight: 1
+  - m_Path: Armature/b_l_wrist/b_l_pinky0
+    m_Weight: 1
+  - m_Path: Armature/b_l_wrist/b_l_pinky0/b_l_pinky1
+    m_Weight: 1
+  - m_Path: Armature/b_l_wrist/b_l_pinky0/b_l_pinky1/b_l_pinky2
+    m_Weight: 1
+  - m_Path: Armature/b_l_wrist/b_l_pinky0/b_l_pinky1/b_l_pinky2/b_l_pinky3
+    m_Weight: 1
+  - m_Path: Armature/b_l_wrist/b_l_ring1
+    m_Weight: 1
+  - m_Path: Armature/b_l_wrist/b_l_ring1/b_l_ring2
+    m_Weight: 1
+  - m_Path: Armature/b_l_wrist/b_l_ring1/b_l_ring2/b_l_ring3
+    m_Weight: 1
+  - m_Path: Armature/b_l_wrist/b_l_thumb0
+    m_Weight: 1
+  - m_Path: Armature/b_l_wrist/b_l_thumb0/b_l_thumb1
+    m_Weight: 1
+  - m_Path: Armature/b_l_wrist/b_l_thumb0/b_l_thumb1/b_l_thumb2
+    m_Weight: 1
+  - m_Path: Armature/b_l_wrist/b_l_thumb0/b_l_thumb1/b_l_thumb2/b_l_thumb3
+    m_Weight: 1
+  - m_Path: l_handMeshNode
+    m_Weight: 1
