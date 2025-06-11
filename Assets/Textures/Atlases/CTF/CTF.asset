@@ -1,0 +1,1223 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d41887b1546f5c44ab54e7e65aad3bc, type: 3}
+  m_Name: CTF
+  m_EditorClassIdentifier: 
+  version: 3252
+  resultType: 0
+  materialsAndUVRects:
+  - material: {fileID: 2100000, guid: 759f2737a6605884f97d0052e2acd1f8, type: 2}
+    atlasRect:
+      serializedVersion: 2
+      x: 0
+      y: 0.875
+      width: 0.125
+      height: 0.125
+    srcObjName: Vagon 1
+    textureArraySliceIdx: -1
+    allPropsUseSameTiling: 1
+    allPropsUseSameTiling_sourceMaterialTiling:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    allPropsUseSameTiling_samplingEncapsulatinRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    propsUseDifferntTiling_srcUVsamplingRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    tilingTreatment: 0
+  - material: {fileID: 2100000, guid: d556bcd2f5c5edc498297029ae7e7e4b, type: 2}
+    atlasRect:
+      serializedVersion: 2
+      x: 0
+      y: 0.875
+      width: 0.125
+      height: 0.125
+    srcObjName: Vagon 1
+    textureArraySliceIdx: -1
+    allPropsUseSameTiling: 1
+    allPropsUseSameTiling_sourceMaterialTiling:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    allPropsUseSameTiling_samplingEncapsulatinRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    propsUseDifferntTiling_srcUVsamplingRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    tilingTreatment: 0
+  - material: {fileID: 2100000, guid: 27850d3397c54a04bae774e75a931fc2, type: 2}
+    atlasRect:
+      serializedVersion: 2
+      x: 0.625
+      y: 0.25
+      width: 0.125
+      height: 0.125
+    srcObjName: Oil Tank
+    textureArraySliceIdx: -1
+    allPropsUseSameTiling: 1
+    allPropsUseSameTiling_sourceMaterialTiling:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    allPropsUseSameTiling_samplingEncapsulatinRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    propsUseDifferntTiling_srcUVsamplingRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    tilingTreatment: 0
+  - material: {fileID: 2100000, guid: 02c8d1deec97f1047be34f0cc9f48be6, type: 2}
+    atlasRect:
+      serializedVersion: 2
+      x: 0.25
+      y: 0.375
+      width: 0.125
+      height: 0.125
+    srcObjName: Crate_03_A_LOD0
+    textureArraySliceIdx: -1
+    allPropsUseSameTiling: 1
+    allPropsUseSameTiling_sourceMaterialTiling:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    allPropsUseSameTiling_samplingEncapsulatinRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    propsUseDifferntTiling_srcUVsamplingRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    tilingTreatment: 0
+  - material: {fileID: 2100000, guid: d52eded977484e34d8e2b3d8ed8ff486, type: 2}
+    atlasRect:
+      serializedVersion: 2
+      x: 0.25
+      y: 0.625
+      width: 0.125
+      height: 0.125
+    srcObjName: Crate_04_B_LOD0
+    textureArraySliceIdx: -1
+    allPropsUseSameTiling: 1
+    allPropsUseSameTiling_sourceMaterialTiling:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    allPropsUseSameTiling_samplingEncapsulatinRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    propsUseDifferntTiling_srcUVsamplingRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    tilingTreatment: 0
+  - material: {fileID: 2100000, guid: 121d59102de96c647b0048c79c8c2a24, type: 2}
+    atlasRect:
+      serializedVersion: 2
+      x: 0.75
+      y: 0.375
+      width: 0.125
+      height: 0.125
+    srcObjName: Crate_08_C_LOD0
+    textureArraySliceIdx: -1
+    allPropsUseSameTiling: 1
+    allPropsUseSameTiling_sourceMaterialTiling:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    allPropsUseSameTiling_samplingEncapsulatinRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    propsUseDifferntTiling_srcUVsamplingRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    tilingTreatment: 0
+  - material: {fileID: 2100000, guid: 6475de29ecb9fe24c857d965c497d0f1, type: 2}
+    atlasRect:
+      serializedVersion: 2
+      x: 0.5
+      y: 0
+      width: 0.25
+      height: 0.25
+    srcObjName: Frame_LOD0
+    textureArraySliceIdx: -1
+    allPropsUseSameTiling: 1
+    allPropsUseSameTiling_sourceMaterialTiling:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 32
+      height: 32
+    allPropsUseSameTiling_samplingEncapsulatinRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 32
+      height: 32
+    propsUseDifferntTiling_srcUVsamplingRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    tilingTreatment: 0
+  - material: {fileID: 2100000, guid: ec78d30248eb0314490810007c005e7b, type: 2}
+    atlasRect:
+      serializedVersion: 2
+      x: 0.625
+      y: 0.375
+      width: 0.125
+      height: 0.125
+    srcObjName: LOD0
+    textureArraySliceIdx: -1
+    allPropsUseSameTiling: 1
+    allPropsUseSameTiling_sourceMaterialTiling:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    allPropsUseSameTiling_samplingEncapsulatinRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    propsUseDifferntTiling_srcUVsamplingRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    tilingTreatment: 0
+  - material: {fileID: 2100000, guid: db46e18b1a21f7749bc3b4bb8f61cfff, type: 2}
+    atlasRect:
+      serializedVersion: 2
+      x: 0.5
+      y: 0.375
+      width: 0.125
+      height: 0.125
+    srcObjName: LOD0
+    textureArraySliceIdx: -1
+    allPropsUseSameTiling: 1
+    allPropsUseSameTiling_sourceMaterialTiling:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    allPropsUseSameTiling_samplingEncapsulatinRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    propsUseDifferntTiling_srcUVsamplingRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    tilingTreatment: 0
+  - material: {fileID: 2100000, guid: 71293016a31258b4cb01b8d284c6758a, type: 2}
+    atlasRect:
+      serializedVersion: 2
+      x: 0.4375
+      y: 0.6875
+      width: 0.0625
+      height: 0.0625
+    srcObjName: LOD0
+    textureArraySliceIdx: -1
+    allPropsUseSameTiling: 1
+    allPropsUseSameTiling_sourceMaterialTiling:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    allPropsUseSameTiling_samplingEncapsulatinRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    propsUseDifferntTiling_srcUVsamplingRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    tilingTreatment: 0
+  - material: {fileID: 2100000, guid: 1ee35f66ef30d6e4293e5bee2e339a47, type: 2}
+    atlasRect:
+      serializedVersion: 2
+      x: 0.25
+      y: 0.875
+      width: 0.125
+      height: 0.125
+    srcObjName: LOD0
+    textureArraySliceIdx: -1
+    allPropsUseSameTiling: 1
+    allPropsUseSameTiling_sourceMaterialTiling:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    allPropsUseSameTiling_samplingEncapsulatinRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    propsUseDifferntTiling_srcUVsamplingRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    tilingTreatment: 0
+  - material: {fileID: 2100000, guid: af8804c13d6263b48a11d4a7807f258b, type: 2}
+    atlasRect:
+      serializedVersion: 2
+      x: 0.25
+      y: 0.75
+      width: 0.125
+      height: 0.125
+    srcObjName: LOD0
+    textureArraySliceIdx: -1
+    allPropsUseSameTiling: 1
+    allPropsUseSameTiling_sourceMaterialTiling:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    allPropsUseSameTiling_samplingEncapsulatinRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    propsUseDifferntTiling_srcUVsamplingRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    tilingTreatment: 0
+  - material: {fileID: 2100000, guid: 6ccedb0998f7aa342a43b2b85e7a68b8, type: 2}
+    atlasRect:
+      serializedVersion: 2
+      x: 0.75
+      y: 0
+      width: 0.25
+      height: 0.25
+    srcObjName: LOD0
+    textureArraySliceIdx: -1
+    allPropsUseSameTiling: 1
+    allPropsUseSameTiling_sourceMaterialTiling:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 8
+      height: 8
+    allPropsUseSameTiling_samplingEncapsulatinRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 8
+      height: 8
+    propsUseDifferntTiling_srcUVsamplingRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    tilingTreatment: 0
+  - material: {fileID: 2100000, guid: 58f7572951c1fa34293618a307a07223, type: 2}
+    atlasRect:
+      serializedVersion: 2
+      x: 0.375
+      y: 0.5
+      width: 0.125
+      height: 0.0625
+    srcObjName: LOD0
+    textureArraySliceIdx: -1
+    allPropsUseSameTiling: 1
+    allPropsUseSameTiling_sourceMaterialTiling:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    allPropsUseSameTiling_samplingEncapsulatinRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    propsUseDifferntTiling_srcUVsamplingRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    tilingTreatment: 0
+  - material: {fileID: 2100000, guid: dc96d765b84c6244bb3e6545a43bedb3, type: 2}
+    atlasRect:
+      serializedVersion: 2
+      x: 0.25
+      y: 0.5
+      width: 0.125
+      height: 0.125
+    srcObjName: LOD0
+    textureArraySliceIdx: -1
+    allPropsUseSameTiling: 1
+    allPropsUseSameTiling_sourceMaterialTiling:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    allPropsUseSameTiling_samplingEncapsulatinRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    propsUseDifferntTiling_srcUVsamplingRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    tilingTreatment: 0
+  - material: {fileID: 2100000, guid: f459c93a1139553419de9d62a0028dc2, type: 2}
+    atlasRect:
+      serializedVersion: 2
+      x: 0.375
+      y: 0.625
+      width: 0.0625
+      height: 0.0625
+    srcObjName: LOD0
+    textureArraySliceIdx: -1
+    allPropsUseSameTiling: 1
+    allPropsUseSameTiling_sourceMaterialTiling:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    allPropsUseSameTiling_samplingEncapsulatinRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    propsUseDifferntTiling_srcUVsamplingRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    tilingTreatment: 0
+  - material: {fileID: 2100000, guid: 40668e41d2f5f3741926bbbcc0868a1e, type: 2}
+    atlasRect:
+      serializedVersion: 2
+      x: 0.875
+      y: 0.25
+      width: 0.125
+      height: 0.125
+    srcObjName: LOD0
+    textureArraySliceIdx: -1
+    allPropsUseSameTiling: 1
+    allPropsUseSameTiling_sourceMaterialTiling:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    allPropsUseSameTiling_samplingEncapsulatinRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    propsUseDifferntTiling_srcUVsamplingRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    tilingTreatment: 0
+  - material: {fileID: 2100000, guid: 1630efdd17fa22a46810a34e2b6886c7, type: 2}
+    atlasRect:
+      serializedVersion: 2
+      x: 0.75
+      y: 0.25
+      width: 0.125
+      height: 0.125
+    srcObjName: LOD0
+    textureArraySliceIdx: -1
+    allPropsUseSameTiling: 1
+    allPropsUseSameTiling_sourceMaterialTiling:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    allPropsUseSameTiling_samplingEncapsulatinRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    propsUseDifferntTiling_srcUVsamplingRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    tilingTreatment: 0
+  - material: {fileID: 2100000, guid: 9cae1dc71471ab04f96b91b85e1cb0c3, type: 2}
+    atlasRect:
+      serializedVersion: 2
+      x: 0.375
+      y: 0.6875
+      width: 0.0625
+      height: 0.0625
+    srcObjName: LOD0
+    textureArraySliceIdx: -1
+    allPropsUseSameTiling: 1
+    allPropsUseSameTiling_sourceMaterialTiling:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    allPropsUseSameTiling_samplingEncapsulatinRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    propsUseDifferntTiling_srcUVsamplingRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    tilingTreatment: 0
+  - material: {fileID: 2100000, guid: 35c86714014a82248b5c397883f04151, type: 2}
+    atlasRect:
+      serializedVersion: 2
+      x: 0.375
+      y: 0.375
+      width: 0.125
+      height: 0.125
+    srcObjName: LOD0
+    textureArraySliceIdx: -1
+    allPropsUseSameTiling: 1
+    allPropsUseSameTiling_sourceMaterialTiling:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    allPropsUseSameTiling_samplingEncapsulatinRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    propsUseDifferntTiling_srcUVsamplingRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    tilingTreatment: 0
+  - material: {fileID: 2100000, guid: fa372282f053f674d8a9d0780ae6b03c, type: 2}
+    atlasRect:
+      serializedVersion: 2
+      x: 0.5
+      y: 0.25
+      width: 0.125
+      height: 0.125
+    srcObjName: LOD0
+    textureArraySliceIdx: -1
+    allPropsUseSameTiling: 1
+    allPropsUseSameTiling_sourceMaterialTiling:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    allPropsUseSameTiling_samplingEncapsulatinRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    propsUseDifferntTiling_srcUVsamplingRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    tilingTreatment: 0
+  - material: {fileID: 2100000, guid: 1feed2498c18bbc4f92b1e6a31326fbf, type: 2}
+    atlasRect:
+      serializedVersion: 2
+      x: 0.375
+      y: 0.25
+      width: 0.125
+      height: 0.125
+    srcObjName: LOD0
+    textureArraySliceIdx: -1
+    allPropsUseSameTiling: 1
+    allPropsUseSameTiling_sourceMaterialTiling:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    allPropsUseSameTiling_samplingEncapsulatinRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    propsUseDifferntTiling_srcUVsamplingRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    tilingTreatment: 0
+  - material: {fileID: 2100000, guid: 859ea9117555b014ba42e4159c2baeda, type: 2}
+    atlasRect:
+      serializedVersion: 2
+      x: 0.125
+      y: 0.25
+      width: 0.125
+      height: 0.125
+    srcObjName: LOD0
+    textureArraySliceIdx: -1
+    allPropsUseSameTiling: 1
+    allPropsUseSameTiling_sourceMaterialTiling:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    allPropsUseSameTiling_samplingEncapsulatinRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    propsUseDifferntTiling_srcUVsamplingRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    tilingTreatment: 0
+  - material: {fileID: 2100000, guid: d510acd69c58f3f41a0962e696be539b, type: 2}
+    atlasRect:
+      serializedVersion: 2
+      x: 0
+      y: 0.25
+      width: 0.125
+      height: 0.125
+    srcObjName: LOD0
+    textureArraySliceIdx: -1
+    allPropsUseSameTiling: 1
+    allPropsUseSameTiling_sourceMaterialTiling:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    allPropsUseSameTiling_samplingEncapsulatinRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    propsUseDifferntTiling_srcUVsamplingRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    tilingTreatment: 0
+  - material: {fileID: 2100000, guid: 57f2bd151fbd37f41a0d2d8571648d2b, type: 2}
+    atlasRect:
+      serializedVersion: 2
+      x: 0
+      y: 0.375
+      width: 0.125
+      height: 0.125
+    srcObjName: LOD0
+    textureArraySliceIdx: -1
+    allPropsUseSameTiling: 1
+    allPropsUseSameTiling_sourceMaterialTiling:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    allPropsUseSameTiling_samplingEncapsulatinRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    propsUseDifferntTiling_srcUVsamplingRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    tilingTreatment: 0
+  - material: {fileID: 2100000, guid: 437856873b6ac084fa62f1e297ad1c81, type: 2}
+    atlasRect:
+      serializedVersion: 2
+      x: 0
+      y: 0.5
+      width: 0.125
+      height: 0.125
+    srcObjName: LOD0
+    textureArraySliceIdx: -1
+    allPropsUseSameTiling: 1
+    allPropsUseSameTiling_sourceMaterialTiling:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    allPropsUseSameTiling_samplingEncapsulatinRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    propsUseDifferntTiling_srcUVsamplingRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    tilingTreatment: 0
+  - material: {fileID: 2100000, guid: 681fc2dce4c7a9146a82eb2e7b2c1ff4, type: 2}
+    atlasRect:
+      serializedVersion: 2
+      x: 0
+      y: 0.625
+      width: 0.125
+      height: 0.125
+    srcObjName: LOD0
+    textureArraySliceIdx: -1
+    allPropsUseSameTiling: 1
+    allPropsUseSameTiling_sourceMaterialTiling:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    allPropsUseSameTiling_samplingEncapsulatinRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    propsUseDifferntTiling_srcUVsamplingRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    tilingTreatment: 0
+  - material: {fileID: 2100000, guid: 4ca4dec9a3473f443ae54b574a50b31b, type: 2}
+    atlasRect:
+      serializedVersion: 2
+      x: 0
+      y: 0.75
+      width: 0.125
+      height: 0.125
+    srcObjName: LOD0
+    textureArraySliceIdx: -1
+    allPropsUseSameTiling: 1
+    allPropsUseSameTiling_sourceMaterialTiling:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    allPropsUseSameTiling_samplingEncapsulatinRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    propsUseDifferntTiling_srcUVsamplingRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    tilingTreatment: 0
+  - material: {fileID: 2100000, guid: 78275381f9cdec94b8df37c6b8607bd4, type: 2}
+    atlasRect:
+      serializedVersion: 2
+      x: 0.25
+      y: 0.25
+      width: 0.125
+      height: 0.125
+    srcObjName: LOD0
+    textureArraySliceIdx: -1
+    allPropsUseSameTiling: 1
+    allPropsUseSameTiling_sourceMaterialTiling:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    allPropsUseSameTiling_samplingEncapsulatinRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    propsUseDifferntTiling_srcUVsamplingRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    tilingTreatment: 0
+  - material: {fileID: 2100000, guid: bfe4c86c51e4f4d48a46898d0004535b, type: 2}
+    atlasRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0.25
+      height: 0.25
+    srcObjName: LOD0
+    textureArraySliceIdx: -1
+    allPropsUseSameTiling: 1
+    allPropsUseSameTiling_sourceMaterialTiling:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 4
+      height: 4
+    allPropsUseSameTiling_samplingEncapsulatinRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 4
+      height: 4
+    propsUseDifferntTiling_srcUVsamplingRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    tilingTreatment: 0
+  - material: {fileID: 2100000, guid: f1d2ebfd8b17c604096ddafe4ca53064, type: 2}
+    atlasRect:
+      serializedVersion: 2
+      x: 0.125
+      y: 0.375
+      width: 0.125
+      height: 0.125
+    srcObjName: LOD0
+    textureArraySliceIdx: -1
+    allPropsUseSameTiling: 1
+    allPropsUseSameTiling_sourceMaterialTiling:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    allPropsUseSameTiling_samplingEncapsulatinRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    propsUseDifferntTiling_srcUVsamplingRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    tilingTreatment: 0
+  - material: {fileID: 2100000, guid: b92ebf40d97a8bd4b971d4e60b4d5d0e, type: 2}
+    atlasRect:
+      serializedVersion: 2
+      x: 0.125
+      y: 0.5
+      width: 0.125
+      height: 0.125
+    srcObjName: LOD0
+    textureArraySliceIdx: -1
+    allPropsUseSameTiling: 1
+    allPropsUseSameTiling_sourceMaterialTiling:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    allPropsUseSameTiling_samplingEncapsulatinRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    propsUseDifferntTiling_srcUVsamplingRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    tilingTreatment: 0
+  - material: {fileID: 2100000, guid: 1d61d0d94218f5b4387be61101e75ebc, type: 2}
+    atlasRect:
+      serializedVersion: 2
+      x: 0.125
+      y: 0.625
+      width: 0.125
+      height: 0.125
+    srcObjName: LOD0
+    textureArraySliceIdx: -1
+    allPropsUseSameTiling: 1
+    allPropsUseSameTiling_sourceMaterialTiling:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    allPropsUseSameTiling_samplingEncapsulatinRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    propsUseDifferntTiling_srcUVsamplingRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    tilingTreatment: 0
+  - material: {fileID: 2100000, guid: 2364526d1fa13ac49b6357ed7ca2902f, type: 2}
+    atlasRect:
+      serializedVersion: 2
+      x: 0.375
+      y: 0.5625
+      width: 0.125
+      height: 0.0625
+    srcObjName: LOD0
+    textureArraySliceIdx: -1
+    allPropsUseSameTiling: 1
+    allPropsUseSameTiling_sourceMaterialTiling:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    allPropsUseSameTiling_samplingEncapsulatinRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    propsUseDifferntTiling_srcUVsamplingRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    tilingTreatment: 0
+  - material: {fileID: 2100000, guid: 417daa03367c30e4db760d7801415d6e, type: 2}
+    atlasRect:
+      serializedVersion: 2
+      x: 0.125
+      y: 0.75
+      width: 0.125
+      height: 0.125
+    srcObjName: LOD0
+    textureArraySliceIdx: -1
+    allPropsUseSameTiling: 1
+    allPropsUseSameTiling_sourceMaterialTiling:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    allPropsUseSameTiling_samplingEncapsulatinRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    propsUseDifferntTiling_srcUVsamplingRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    tilingTreatment: 0
+  - material: {fileID: 2100000, guid: 72ea773079466aa4784602d2a4592824, type: 2}
+    atlasRect:
+      serializedVersion: 2
+      x: 0.125
+      y: 0.875
+      width: 0.125
+      height: 0.125
+    srcObjName: LOD0
+    textureArraySliceIdx: -1
+    allPropsUseSameTiling: 1
+    allPropsUseSameTiling_sourceMaterialTiling:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    allPropsUseSameTiling_samplingEncapsulatinRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    propsUseDifferntTiling_srcUVsamplingRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    tilingTreatment: 0
+  - material: {fileID: 2100000, guid: 8518bdc53938d5148b2c5ca3ef31cf55, type: 2}
+    atlasRect:
+      serializedVersion: 2
+      x: 0.4375
+      y: 0.625
+      width: 0.0625
+      height: 0.0625
+    srcObjName: LOD0
+    textureArraySliceIdx: -1
+    allPropsUseSameTiling: 1
+    allPropsUseSameTiling_sourceMaterialTiling:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    allPropsUseSameTiling_samplingEncapsulatinRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    propsUseDifferntTiling_srcUVsamplingRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    tilingTreatment: 0
+  - material: {fileID: 2100000, guid: 3d9ba9e393d0c514782e0ee5fd8c75b1, type: 2}
+    atlasRect:
+      serializedVersion: 2
+      x: 0.25
+      y: 0
+      width: 0.25
+      height: 0.25
+    srcObjName: Pillar_LOD0
+    textureArraySliceIdx: -1
+    allPropsUseSameTiling: 1
+    allPropsUseSameTiling_sourceMaterialTiling:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 2
+      height: 2
+    allPropsUseSameTiling_samplingEncapsulatinRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 2
+      height: 2
+    propsUseDifferntTiling_srcUVsamplingRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    tilingTreatment: 0
+  - material: {fileID: 2100000, guid: 70434fa6d4f77194c9d9a9150217e025, type: 2}
+    atlasRect:
+      serializedVersion: 2
+      x: 0.875
+      y: 0.375
+      width: 0.125
+      height: 0.0625
+    srcObjName: Volga (1)
+    textureArraySliceIdx: -1
+    allPropsUseSameTiling: 1
+    allPropsUseSameTiling_sourceMaterialTiling:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    allPropsUseSameTiling_samplingEncapsulatinRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    propsUseDifferntTiling_srcUVsamplingRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    tilingTreatment: 0
+  - material: {fileID: 2100000, guid: a130238ebb650354eaac9f62569380f9, type: 2}
+    atlasRect:
+      serializedVersion: 2
+      x: 0.875
+      y: 0.4375
+      width: 0.125
+      height: 0.0625
+    srcObjName: Volga (2)
+    textureArraySliceIdx: -1
+    allPropsUseSameTiling: 1
+    allPropsUseSameTiling_sourceMaterialTiling:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    allPropsUseSameTiling_samplingEncapsulatinRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    propsUseDifferntTiling_srcUVsamplingRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    tilingTreatment: 0
+  resultMaterials:
+  - combinedMaterial: {fileID: 2100000, guid: 0a68b574ef9a76a4f9155668ce44052d, type: 2}
+    considerMeshUVs: 0
+    sourceMaterials:
+    - {fileID: 2100000, guid: 759f2737a6605884f97d0052e2acd1f8, type: 2}
+    - {fileID: 2100000, guid: d556bcd2f5c5edc498297029ae7e7e4b, type: 2}
+    - {fileID: 2100000, guid: 27850d3397c54a04bae774e75a931fc2, type: 2}
+    - {fileID: 2100000, guid: 02c8d1deec97f1047be34f0cc9f48be6, type: 2}
+    - {fileID: 2100000, guid: d52eded977484e34d8e2b3d8ed8ff486, type: 2}
+    - {fileID: 2100000, guid: 121d59102de96c647b0048c79c8c2a24, type: 2}
+    - {fileID: 2100000, guid: 6475de29ecb9fe24c857d965c497d0f1, type: 2}
+    - {fileID: 2100000, guid: ec78d30248eb0314490810007c005e7b, type: 2}
+    - {fileID: 2100000, guid: db46e18b1a21f7749bc3b4bb8f61cfff, type: 2}
+    - {fileID: 2100000, guid: 71293016a31258b4cb01b8d284c6758a, type: 2}
+    - {fileID: 2100000, guid: 1ee35f66ef30d6e4293e5bee2e339a47, type: 2}
+    - {fileID: 2100000, guid: af8804c13d6263b48a11d4a7807f258b, type: 2}
+    - {fileID: 2100000, guid: 6ccedb0998f7aa342a43b2b85e7a68b8, type: 2}
+    - {fileID: 2100000, guid: 58f7572951c1fa34293618a307a07223, type: 2}
+    - {fileID: 2100000, guid: dc96d765b84c6244bb3e6545a43bedb3, type: 2}
+    - {fileID: 2100000, guid: f459c93a1139553419de9d62a0028dc2, type: 2}
+    - {fileID: 2100000, guid: 40668e41d2f5f3741926bbbcc0868a1e, type: 2}
+    - {fileID: 2100000, guid: 1630efdd17fa22a46810a34e2b6886c7, type: 2}
+    - {fileID: 2100000, guid: 9cae1dc71471ab04f96b91b85e1cb0c3, type: 2}
+    - {fileID: 2100000, guid: 35c86714014a82248b5c397883f04151, type: 2}
+    - {fileID: 2100000, guid: fa372282f053f674d8a9d0780ae6b03c, type: 2}
+    - {fileID: 2100000, guid: 1feed2498c18bbc4f92b1e6a31326fbf, type: 2}
+    - {fileID: 2100000, guid: 859ea9117555b014ba42e4159c2baeda, type: 2}
+    - {fileID: 2100000, guid: d510acd69c58f3f41a0962e696be539b, type: 2}
+    - {fileID: 2100000, guid: 57f2bd151fbd37f41a0d2d8571648d2b, type: 2}
+    - {fileID: 2100000, guid: 437856873b6ac084fa62f1e297ad1c81, type: 2}
+    - {fileID: 2100000, guid: 681fc2dce4c7a9146a82eb2e7b2c1ff4, type: 2}
+    - {fileID: 2100000, guid: 4ca4dec9a3473f443ae54b574a50b31b, type: 2}
+    - {fileID: 2100000, guid: 78275381f9cdec94b8df37c6b8607bd4, type: 2}
+    - {fileID: 2100000, guid: bfe4c86c51e4f4d48a46898d0004535b, type: 2}
+    - {fileID: 2100000, guid: f1d2ebfd8b17c604096ddafe4ca53064, type: 2}
+    - {fileID: 2100000, guid: b92ebf40d97a8bd4b971d4e60b4d5d0e, type: 2}
+    - {fileID: 2100000, guid: 1d61d0d94218f5b4387be61101e75ebc, type: 2}
+    - {fileID: 2100000, guid: 2364526d1fa13ac49b6357ed7ca2902f, type: 2}
+    - {fileID: 2100000, guid: 417daa03367c30e4db760d7801415d6e, type: 2}
+    - {fileID: 2100000, guid: 72ea773079466aa4784602d2a4592824, type: 2}
+    - {fileID: 2100000, guid: 8518bdc53938d5148b2c5ca3ef31cf55, type: 2}
+    - {fileID: 2100000, guid: 3d9ba9e393d0c514782e0ee5fd8c75b1, type: 2}
+    - {fileID: 2100000, guid: 70434fa6d4f77194c9d9a9150217e025, type: 2}
+    - {fileID: 2100000, guid: a130238ebb650354eaac9f62569380f9, type: 2}
+  resultMaterialsTexArray: []
+  doMultiMaterial: 0
