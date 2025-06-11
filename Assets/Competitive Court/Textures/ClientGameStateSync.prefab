@@ -1,0 +1,498 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3146430254294217732
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7846038368566258526}
+  - component: {fileID: 415481259871407401}
+  - component: {fileID: 2297477568626332749}
+  m_Layer: 5
+  m_Name: EventSystem
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7846038368566258526
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3146430254294217732}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 3184252961056016310}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &415481259871407401
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3146430254294217732}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76c392e42b5098c458856cdf6ecaaaa1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_FirstSelected: {fileID: 0}
+  m_sendNavigationEvents: 1
+  m_DragThreshold: 10
+--- !u!114 &2297477568626332749
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3146430254294217732}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab68ce6587aab0146b8dabefbd806791, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SendPointerHoverToParent: 1
+  m_ClickSpeed: 0.3
+  m_MoveDeadzone: 0.6
+  m_RepeatDelay: 0.5
+  m_RepeatRate: 0.1
+  m_TrackedDeviceDragThresholdMultiplier: 1.4
+  m_TrackedScrollDeltaMultiplier: 5
+  m_ActiveInputMode: 0
+  m_MaxTrackedDeviceRaycastDistance: 1000
+  m_EnableXRInput: 1
+  m_EnableMouseInput: 0
+  m_EnableTouchInput: 1
+  m_PointAction: {fileID: 0}
+  m_LeftClickAction: {fileID: 0}
+  m_MiddleClickAction: {fileID: 0}
+  m_RightClickAction: {fileID: 0}
+  m_ScrollWheelAction: {fileID: 0}
+  m_NavigateAction: {fileID: 0}
+  m_SubmitAction: {fileID: 0}
+  m_CancelAction: {fileID: 0}
+  m_EnableBuiltinActionsAsFallback: 1
+  m_EnableGamepadInput: 1
+  m_EnableJoystickInput: 1
+  m_HorizontalAxis: Horizontal
+  m_VerticalAxis: Vertical
+  m_SubmitButton: Submit
+  m_CancelButton: Cancel
+--- !u!1 &3184252959056971157
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3184252959056971156}
+  - component: {fileID: 3184252959056971158}
+  - component: {fileID: 8174997936308866273}
+  - component: {fileID: 3184252959056971159}
+  m_Layer: 0
+  m_Name: FieldAudio
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3184252959056971156
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3184252959056971157}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 3184252961056016310}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3184252959056971158
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3184252959056971157}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dbb5a1e3060dbfc4c81452be10680db8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _backgroundSource: {fileID: 3184252959056971159}
+  _background: []
+  _source: {fileID: 3184252959056971159}
+  _readySteady:
+  - {fileID: 8300000, guid: d3155116a6886a44f85d2b5bf76493db, type: 3}
+  _roundHorns:
+  - {fileID: 8300000, guid: 9d3ec3b5d2ec2994caaad161559887f0, type: 3}
+  _matchHorns:
+  - {fileID: 8300000, guid: c857a997adeec2943b5f6f05bf13e19c, type: 3}
+  _gameOver:
+  - {fileID: 8300000, guid: 0f31e7807f82ece41b9fdb5394faa392, type: 3}
+  _buzzerPressedXBall:
+  - {fileID: 8300000, guid: bf746625d0f61ec47ad1403f45129a00, type: 3}
+  _teamConcededXBall:
+  - {fileID: 8300000, guid: 7d728afc920fc7e47bac2f9f2ffd3746, type: 3}
+  _gameOverXBall:
+  - {fileID: 8300000, guid: 6cdd9d1cf4daf2941b51a1f6234c1638, type: 3}
+--- !u!114 &8174997936308866273
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3184252959056971157}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b681c19ff7cec34e83b04c0dd599fc7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _eventsToListen:
+  - {fileID: 11400000, guid: 9f8fafa1afcb1cc43b1a79d4c87f7989, type: 2}
+  - {fileID: 11400000, guid: 44ed2a7c88f87594a89eb832ac4a6a10, type: 2}
+  - {fileID: 11400000, guid: 3ccd8faa2f4c36547876666beb3b39bd, type: 2}
+  - {fileID: 11400000, guid: ba8a05ad664e4b342843abe5aa296c0a, type: 2}
+  - {fileID: 11400000, guid: 4f20be94371a2154cbeb6cf85c18e8fc, type: 2}
+  - {fileID: 11400000, guid: 3a0f2bebe53f8394c90110996360df30, type: 2}
+  - {fileID: 11400000, guid: 3e469c29ce6f3c747b307b4796d8e678, type: 2}
+  UnityEvents:
+  - Name: PlayersReadySound
+    Event:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 3184252959056971158}
+          m_TargetAssemblyTypeName: CTF_AudioFX, Assembly-Core
+          m_MethodName: PlayReadySteadySound
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+  - Name: EndOfRoundSound
+    Event:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 3184252959056971158}
+          m_TargetAssemblyTypeName: CTF_AudioFX, Assembly-Core
+          m_MethodName: PlayRoundHorn
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+  - Name: EndOfGameSound
+    Event:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 3184252959056971158}
+          m_TargetAssemblyTypeName: CTF_AudioFX, Assembly-Core
+          m_MethodName: PlayGameOverSound
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+  - Name: PlayersReadySoundXBall
+    Event:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 3184252959056971159}
+          m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
+          m_MethodName: PlayOneShot
+          m_Mode: 2
+          m_Arguments:
+            m_ObjectArgument: {fileID: 8300000, guid: db4734f9c67107f4cb782797508374a5,
+              type: 3}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.AudioClip, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+  - Name: BuzzerPressedXBall
+    Event:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 3184252959056971158}
+          m_TargetAssemblyTypeName: CTF_AudioFX, Assembly-Core
+          m_MethodName: PlayXBallBuzzerPressed
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+  - Name: TeamConcededXBall
+    Event:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 3184252959056971158}
+          m_TargetAssemblyTypeName: CTF_AudioFX, Assembly-Core
+          m_MethodName: PlayXBallTeamConceded
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+  - Name: EndOfGameSoundXBall
+    Event:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 3184252959056971158}
+          m_TargetAssemblyTypeName: CTF_AudioFX, Assembly-Core
+          m_MethodName: PlayXBallGameOver
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+--- !u!82 &3184252959056971159
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3184252959056971157}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 24300002, guid: 512bf91ede7f66b499dd875bf5b1ae64,
+    type: 2}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 10
+  MaxDistance: 75
+  Pan2D: 0
+  rolloffMode: 2
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!1 &3184252961056016311
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3184252961056016310}
+  - component: {fileID: 3184252961056016305}
+  - component: {fileID: -7314067083455764234}
+  m_Layer: 0
+  m_Name: ClientGameStateSync
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3184252961056016310
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3184252961056016311}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 3184252959056971156}
+  - {fileID: 7846038368566258526}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3184252961056016305
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3184252961056016311}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 449ae57cf22f997459fba6cf14b41844, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _allModes: {fileID: 11400000, guid: 2230e53c838ed3848ad0d80a072bfb7b, type: 2}
+  _startAreaA: {fileID: 0}
+  _startAreaB: {fileID: 0}
+--- !u!114 &-7314067083455764234
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3184252961056016311}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b681c19ff7cec34e83b04c0dd599fc7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _eventsToListen:
+  - {fileID: 11400000, guid: 8a3a9964e49f9b24790051da6b8bfc2c, type: 2}
+  - {fileID: 11400000, guid: 7ff98bbc68b30a744aebeda7e739f95c, type: 2}
+  - {fileID: 11400000, guid: 28eed9b31455a614aa4a1c02c4a4fe7c, type: 2}
+  UnityEvents:
+  - Name: ClientServerInteractorInitialized
+    Event:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 3184252961056016305}
+          m_TargetAssemblyTypeName: ClientGameStateSync, Assembly-Core
+          m_MethodName: Init
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+  - Name: ActivateAbilityToShoot
+    Event:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 3184252961056016305}
+          m_TargetAssemblyTypeName: ClientGameStateSync, Assembly-Core
+          m_MethodName: EnableShooting
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+  - Name: DeactivateAbilityToShoot
+    Event:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 3184252961056016305}
+          m_TargetAssemblyTypeName: ClientGameStateSync, Assembly-Core
+          m_MethodName: DisableShooting
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 1
+          m_CallState: 2

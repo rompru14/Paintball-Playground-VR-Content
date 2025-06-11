@@ -1,0 +1,282 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1600091025673052745
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1600091025673052758}
+  - component: {fileID: 1600091025673052759}
+  - component: {fileID: 1600091025673052756}
+  - component: {fileID: 1630783950021870392}
+  - component: {fileID: 6332117866582136753}
+  - component: {fileID: 184872489077041647}
+  - component: {fileID: 850462567196566911}
+  - component: {fileID: 321422228771838804}
+  - component: {fileID: 3021097655417307137}
+  - component: {fileID: 2392750132965605167}
+  - component: {fileID: -1982183924011656876}
+  m_Layer: 0
+  m_Name: ClientServerInteractor
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1600091025673052758
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1600091025673052745}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1600091025673052759
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1600091025673052745}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d5a57f767e5e46a458fc5d3c628d0cbb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  GlobalObjectIdHash: 951099334
+  AlwaysReplicateAsRoot: 0
+  SynchronizeTransform: 1
+  ActiveSceneSynchronization: 0
+  SceneMigrationSynchronization: 1
+  SpawnWithObservers: 1
+  DontDestroyWithOwner: 0
+  AutoObjectParentSync: 1
+--- !u!114 &1600091025673052756
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1600091025673052745}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e5f0451b9be094d438e4ccb1632c6413, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _interactorAvailableEvent: {fileID: 11400000, guid: a7897d3d1ef7dab4bb2e1221763faeb3,
+    type: 2}
+  _interactorInitializedEvent: {fileID: 11400000, guid: 8a3a9964e49f9b24790051da6b8bfc2c,
+    type: 2}
+  _networkRestartHappenedEvent: {fileID: 11400000, guid: 69855834c880a5a468f380817f621684,
+    type: 2}
+  _shouldQuitHappenedEvent: {fileID: 11400000, guid: 9326d06e904864646be9398e28f7e79f,
+    type: 2}
+  _xBallBuzzerPressed: {fileID: 11400000, guid: 4f20be94371a2154cbeb6cf85c18e8fc,
+    type: 2}
+  _xBallTeamConceded: {fileID: 11400000, guid: 3a0f2bebe53f8394c90110996360df30, type: 2}
+  _mapVotingServer: {fileID: 6332117866582136753}
+  _concedeVoting: {fileID: 321422228771838804}
+  _adminPanelServer: {fileID: 1630783950021870392}
+  _voiceChatNetwork: {fileID: 850462567196566911}
+  _rpcCallbacks: {fileID: 3021097655417307137}
+  _playerTemplate: {fileID: 5835356259428279267, guid: 557641c51dca948418e89a09bc2a6dde,
+    type: 3}
+  _invisiblePlayerTemplate: {fileID: 6059322104125548163, guid: 4f75e09e55fef7e49bd42012de1f5dc3,
+    type: 3}
+  _spectatorTemplate: {fileID: 6870763582911806859, guid: 1705fd8915b06804fbcf4a6155133274,
+    type: 3}
+  _tokenSpawner: {fileID: 184872489077041647}
+--- !u!114 &1630783950021870392
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1600091025673052745}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cc6ba88ca0172eb4a929cd30452c08e8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  WaitingTime:
+    m_InternalValue: 0
+  MaxPlayers:
+    m_InternalValue: 0
+  WarmupTime:
+    m_InternalValue: 0
+  RoundTime:
+    m_InternalValue: 0
+  PointsToWin:
+    m_InternalValue: 0
+  HitCount:
+    m_InternalValue: 0
+  FriendlyFire:
+    m_InternalValue: 0
+  RampingEnabled:
+    m_InternalValue: 0
+  MadePublic:
+    m_InternalValue: 0
+--- !u!114 &6332117866582136753
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1600091025673052745}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f2b095a03e11c5f4aac30b1070fc3fa6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _interactor: {fileID: 1600091025673052756}
+  _mapsCount: 8
+--- !u!114 &184872489077041647
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1600091025673052745}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18f59b93371cad54796e562f088f6043, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _tagsTemplate: {fileID: 2437316848848122538, guid: e6a687409ed7a72499ac8635694046a4,
+    type: 3}
+--- !u!114 &850462567196566911
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1600091025673052745}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 46ba3af4fe344994eb2cd4157c66c257, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &321422228771838804
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1600091025673052745}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6e381a522ad01764cb30a65555dcde67, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &3021097655417307137
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1600091025673052745}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d5a892410bff0bb48a7389b0ff4d8266, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &2392750132965605167
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1600091025673052745}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7313965220858284f82e556930b55f36, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _behaviourToRegistry: {fileID: 1600091025673052756}
+--- !u!114 &-1982183924011656876
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1600091025673052745}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b681c19ff7cec34e83b04c0dd599fc7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _eventsToListen:
+  - {fileID: 11400000, guid: 627c8b19e8dbfcd478563ccd300d240b, type: 2}
+  - {fileID: 11400000, guid: a7897d3d1ef7dab4bb2e1221763faeb3, type: 2}
+  - {fileID: 11400000, guid: 9e0d8f4ff077ce54a95d35a6c108b6af, type: 2}
+  UnityEvents:
+  - Name: RoundStarted
+    Event:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 321422228771838804}
+          m_TargetAssemblyTypeName: ConcedeVoting, Assembly-Core
+          m_MethodName: ResetValues
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+        - m_Target: {fileID: 184872489077041647}
+          m_TargetAssemblyTypeName: TagSpawner, Assembly-Core
+          m_MethodName: ResetTags
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+  - Name: ClientServerInteractorAvailable
+    Event:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1630783950021870392}
+          m_TargetAssemblyTypeName: AdminPanelServer, Assembly-Core
+          m_MethodName: InitNetworkVariables
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+  - Name: DisableMarkerStartCoverFeature
+    Event:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1600091025673052756}
+          m_TargetAssemblyTypeName: ClientServerInteractor, Assembly-Core
+          m_MethodName: DisableCoverFeature
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
