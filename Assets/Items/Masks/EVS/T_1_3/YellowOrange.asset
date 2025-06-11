@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99b69cb9e3e8c8b48abb18863e2a2e76, type: 3}
+  m_Name: YellowOrange
+  m_EditorClassIdentifier: 
+  Pack: {fileID: 11400000, guid: 606ef1891d745a04ab115ce720c2f037, type: 2}
+  Category: 4
+  TemplatePrefab: {fileID: 2359744608143870235, guid: 97f75837284feda4ea6d0879658084f1,
+    type: 3}
+  SameTpvFpv: 1
+  FPV:
+    Mesh: {fileID: 5533813188442681767, guid: 07852ad2322f42f4b9d48b6caea6e78f, type: 3}
+    Materials:
+    - {fileID: 2100000, guid: 0d6eaec318af8e046a10d460975ec632, type: 2}
+    - {fileID: 2100000, guid: ae04af4ab412a7a46bd573acff4eeb15, type: 2}
+  TPV:
+    Mesh: {fileID: 5533813188442681767, guid: 07852ad2322f42f4b9d48b6caea6e78f, type: 3}
+    Materials:
+    - {fileID: 2100000, guid: 0d6eaec318af8e046a10d460975ec632, type: 2}
+    - {fileID: 2100000, guid: ae04af4ab412a7a46bd573acff4eeb15, type: 2}
+  SourceModel: {fileID: 0}
+  Avatar: {fileID: 0}
+  AssetID: MaskEVSYeOrT13
