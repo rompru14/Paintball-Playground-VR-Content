@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e657808b4da06f409cf637136134934, type: 3}
+  m_Name: Pack_Mask_MSK_PRO_T_2_3
+  m_EditorClassIdentifier: 
+  Sku: MSK_PRO_T_2_3
+  Grade: T2
+  Category: 4
+  Moderator: 0
+  Show: 1
+  Skins:
+  - {fileID: 11400000, guid: 7c89c244d36ebe84892d3efb784f7dea, type: 2}
+  - {fileID: 11400000, guid: dfb1b867fef5f3d4dbd896fe973f6b3e, type: 2}
+  - {fileID: 11400000, guid: 8d193f14ee9493a479ca000c8d62dd5f, type: 2}
+  - {fileID: 11400000, guid: bd1f857f383922c42b65e242970b540c, type: 2}
+  - {fileID: 11400000, guid: 903db436da5c62842afa3ba77ce6745f, type: 2}
+  - {fileID: 11400000, guid: a55d0cfbbd5dbc84fab6ac4749f5023a, type: 2}

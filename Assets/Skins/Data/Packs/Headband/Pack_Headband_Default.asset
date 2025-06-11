@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e657808b4da06f409cf637136134934, type: 3}
+  m_Name: Pack_Headband_Default
+  m_EditorClassIdentifier: 
+  Sku: BND_RKI_T_1_1
+  Grade: T0
+  Category: 8
+  Moderator: 0
+  Show: 1
+  Skins:
+  - {fileID: 11400000, guid: 1546e14692dea3d408abe609c837555b, type: 2}
+  - {fileID: 11400000, guid: 587653f8a01985640ac28e7421099e51, type: 2}
+  - {fileID: 11400000, guid: 0d727c3d9afb6d4429434d013dc3c541, type: 2}
+  - {fileID: 11400000, guid: b6026c6da615b494d99f5fe16fd14ee6, type: 2}
+  - {fileID: 11400000, guid: 027fbfee79865e242a29080aa5749996, type: 2}
+  - {fileID: 11400000, guid: 0a7c32d2f64cc2e47b5da5471bd0ccb9, type: 2}

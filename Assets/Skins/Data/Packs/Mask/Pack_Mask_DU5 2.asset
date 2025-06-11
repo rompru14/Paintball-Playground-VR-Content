@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e657808b4da06f409cf637136134934, type: 3}
+  m_Name: Pack_Mask_DU5 2
+  m_EditorClassIdentifier: 
+  Sku: MSK_DU5_T_1_2
+  Grade: T1
+  Category: 4
+  Moderator: 0
+  Show: 1
+  Skins:
+  - {fileID: 11400000, guid: b495cb187ebbf2046a3e043c391fd009, type: 2}
+  - {fileID: 11400000, guid: 5c7174aa5d513894b999de50d893ab3b, type: 2}
+  - {fileID: 11400000, guid: b91885b84832ba0439ce9ca3864c6185, type: 2}
+  - {fileID: 11400000, guid: 83c9eab90558eab4f8275473b62be614, type: 2}
+  - {fileID: 11400000, guid: 27f7bef281146774f8c96f10008d6c69, type: 2}

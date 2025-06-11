@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e657808b4da06f409cf637136134934, type: 3}
+  m_Name: Pack_Weapon_MRK_FFO_T_1_2
+  m_EditorClassIdentifier: 
+  Sku: MRK_FFO_T_1_2
+  Grade: T1
+  Category: 2
+  Moderator: 0
+  Show: 1
+  Skins:
+  - {fileID: 11400000, guid: 2a7102a9d0d08e24dbae455747ca17ca, type: 2}
+  - {fileID: 11400000, guid: 435c25c2b64cdd64db7b5fb982a18206, type: 2}
+  - {fileID: 11400000, guid: 016b5c5310296544fae73a11212f304b, type: 2}
+  - {fileID: 11400000, guid: 710663057935e2e4a918f3b6dd7cd01a, type: 2}
+  - {fileID: 11400000, guid: 33b456698da908949b9d2391b9e78370, type: 2}

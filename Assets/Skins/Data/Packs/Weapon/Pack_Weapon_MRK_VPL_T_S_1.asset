@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e657808b4da06f409cf637136134934, type: 3}
+  m_Name: Pack_Weapon_MRK_VPL_T_S_1
+  m_EditorClassIdentifier: 
+  Sku: MRK_VPL_T_S_1
+  Grade: Special
+  Category: 2
+  Moderator: 0
+  Show: 1
+  Skins:
+  - {fileID: 11400000, guid: 956e5f31493a283429cbf0d0faf29099, type: 2}
+  - {fileID: 11400000, guid: 6d47052dc50a33d40932ff1b3e048449, type: 2}
+  - {fileID: 11400000, guid: 849536d634e35cc4aa25818e2d0a4b77, type: 2}
+  - {fileID: 11400000, guid: f11abb46ee0ba1543884c059d4b182e3, type: 2}
+  - {fileID: 11400000, guid: 588e2800b73badd44a69ca5dc5a81f23, type: 2}
+  - {fileID: 11400000, guid: 4b105e0a1657df3408e89f2126f22e69, type: 2}

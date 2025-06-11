@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e657808b4da06f409cf637136134934, type: 3}
+  m_Name: Pack_Weapon_MRK_AMP_T_1_1
+  m_EditorClassIdentifier: 
+  Sku: MRK_AMP_T_1_1
+  Grade: T1
+  Category: 2
+  Moderator: 0
+  Show: 1
+  Skins:
+  - {fileID: 11400000, guid: bb67ba57a83fc2241b63eb308b19b860, type: 2}
+  - {fileID: 11400000, guid: c65d4038be2ad514285afe59f8cccc7d, type: 2}
+  - {fileID: 11400000, guid: 1fbbb7d0e6ab62547a8400b720e3546a, type: 2}
+  - {fileID: 11400000, guid: c7abd69d1bae9154a952c2b84b5e75e5, type: 2}
+  - {fileID: 11400000, guid: 0111815875360e04980c13a0821c0110, type: 2}

@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e657808b4da06f409cf637136134934, type: 3}
+  m_Name: Pack_Weapon_VL2_T11
+  m_EditorClassIdentifier: 
+  Sku: MRK_VL2_T_1_1
+  Grade: T1
+  Category: 2
+  Moderator: 0
+  Show: 1
+  Skins:
+  - {fileID: 11400000, guid: 5104be7f05b045f4facd80d2c8a6a24b, type: 2}
+  - {fileID: 11400000, guid: 64e889e687201474eaf54a8cad67d68a, type: 2}
+  - {fileID: 11400000, guid: d73cdd2894651524691557378fbbd1d0, type: 2}
+  - {fileID: 11400000, guid: cc51ecbaffdae8443be06f8f14dc8258, type: 2}
+  - {fileID: 11400000, guid: 73d8614789731794eba442b676462220, type: 2}
+  - {fileID: 11400000, guid: 24b01e374487a964e82d0badd521a6e3, type: 2}

@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e657808b4da06f409cf637136134934, type: 3}
+  m_Name: Pack_Gloves_HLW_TS2
+  m_EditorClassIdentifier: 
+  Sku: GLV_HLW_T_S_2
+  Grade: Special
+  Category: 32
+  Moderator: 0
+  Show: 1
+  Skins:
+  - {fileID: 11400000, guid: 2c8a573f5e48c5b4cbff09cef6ac0a36, type: 2}
+  - {fileID: 11400000, guid: b356b959d342f9748b2cde0175c688a6, type: 2}
+  - {fileID: 11400000, guid: fea9d383280936b4f956a9262e0d7356, type: 2}
+  - {fileID: 11400000, guid: c1647cbe8cd7c3742ad98248e418d871, type: 2}
+  - {fileID: 11400000, guid: cbfddb41bbe6d5947908d82d8cc65154, type: 2}

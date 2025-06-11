@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e657808b4da06f409cf637136134934, type: 3}
+  m_Name: Pack_Overall_Halloween_TS2
+  m_EditorClassIdentifier: 
+  Sku: OUT_HLW_T_S_2
+  Grade: Special
+  Category: 16
+  Moderator: 0
+  Show: 1
+  Skins:
+  - {fileID: 11400000, guid: e8f5566090aac554c96a6480bf149bb9, type: 2}
+  - {fileID: 11400000, guid: 92d61cf5d4e4bbb4c9cec672760553ca, type: 2}
+  - {fileID: 11400000, guid: 3aa452a39e016a2479c1ecaeb995f1a7, type: 2}
+  - {fileID: 11400000, guid: 6d6ddcdf2b366a94b87a72592a9948de, type: 2}
+  - {fileID: 11400000, guid: ef769307da019104d9846952d1e587d7, type: 2}

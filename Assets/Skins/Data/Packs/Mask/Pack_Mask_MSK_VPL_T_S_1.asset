@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e657808b4da06f409cf637136134934, type: 3}
+  m_Name: Pack_Mask_MSK_VPL_T_S_1
+  m_EditorClassIdentifier: 
+  Sku: MSK_VPL_T_S_1
+  Grade: Special
+  Category: 4
+  Moderator: 0
+  Show: 1
+  Skins:
+  - {fileID: 11400000, guid: d1b1139f8114e524a82ea8625fbb50e1, type: 2}
+  - {fileID: 11400000, guid: f4f7ddf652f2536448e17c3ab8d72453, type: 2}
+  - {fileID: 11400000, guid: 37fc297aa5b93bf47bedfc1a3fb9bee3, type: 2}
+  - {fileID: 11400000, guid: d3d1e482b8ff91e4ab3d93fd7da34efb, type: 2}
+  - {fileID: 11400000, guid: 8875941438836a144b1d4353336ca8a2, type: 2}
+  - {fileID: 11400000, guid: 9b510bd5f0350d7498fcf309bdc2ccbd, type: 2}

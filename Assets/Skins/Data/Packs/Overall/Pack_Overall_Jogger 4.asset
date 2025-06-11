@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e657808b4da06f409cf637136134934, type: 3}
+  m_Name: Pack_Overall_Jogger 4
+  m_EditorClassIdentifier: 
+  Sku: OUT_JOG_T_1_4
+  Grade: T1
+  Category: 16
+  Moderator: 0
+  Show: 1
+  Skins:
+  - {fileID: 11400000, guid: 921c4b254c160cd49ba1f8cf415dfd5e, type: 2}
+  - {fileID: 11400000, guid: b70096f895265fc47ac68ac4a59d64a4, type: 2}
+  - {fileID: 11400000, guid: 709c24234c1f0154f93fa4babd71aed7, type: 2}
+  - {fileID: 11400000, guid: 450cbe13e5e03c44e9ecd6fd3db841c1, type: 2}
+  - {fileID: 11400000, guid: 125d30f07ccb5d0439195e516cced8e6, type: 2}

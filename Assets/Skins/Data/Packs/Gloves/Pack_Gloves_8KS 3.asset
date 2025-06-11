@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e657808b4da06f409cf637136134934, type: 3}
+  m_Name: Pack_Gloves_8KS 3
+  m_EditorClassIdentifier: 
+  Sku: GLV_8KS_T_1_3
+  Grade: T1
+  Category: 32
+  Moderator: 0
+  Show: 1
+  Skins:
+  - {fileID: 11400000, guid: 1188bf7e6aa2c424482d2f5c2f522821, type: 2}
+  - {fileID: 11400000, guid: 7ed4d02016d23df4a8bfab4c5e39dc3f, type: 2}
+  - {fileID: 11400000, guid: 222e1f0cb4739db429c7f085127884b4, type: 2}
+  - {fileID: 11400000, guid: e7e29e722cba34d4aae80eb89633c128, type: 2}
+  - {fileID: 11400000, guid: 19411b721b0d9e44688b6483127111a6, type: 2}
+  - {fileID: 11400000, guid: 16095023d46893044aeb2d3998f5962a, type: 2}

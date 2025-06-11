@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e657808b4da06f409cf637136134934, type: 3}
+  m_Name: Pack_Pod_Default
+  m_EditorClassIdentifier: 
+  Sku: POD_RNT_T_1_1
+  Grade: T0
+  Category: 128
+  Moderator: 0
+  Show: 1
+  Skins:
+  - {fileID: 11400000, guid: 66343897ba0927e4a815097a73adb1ae, type: 2}
+  - {fileID: 11400000, guid: 7cb7e2b97ee0a134a84c7a7a1ca284aa, type: 2}
+  - {fileID: 11400000, guid: eece54d5e6c932842958db5b468a9448, type: 2}
+  - {fileID: 11400000, guid: 0c808264b116342449f60cccbb8116f8, type: 2}
+  - {fileID: 11400000, guid: ad6bfffaf2b821742859bc80c090c660, type: 2}
+  - {fileID: 11400000, guid: cb8ddb80c8b8d3e4197261c15f3e31fc, type: 2}

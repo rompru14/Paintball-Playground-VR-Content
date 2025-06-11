@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e657808b4da06f409cf637136134934, type: 3}
+  m_Name: Pack_Overall_Jogger_T22
+  m_EditorClassIdentifier: 
+  Sku: OUT_HSP_T_2_2
+  Grade: T2
+  Category: 16
+  Moderator: 0
+  Show: 1
+  Skins:
+  - {fileID: 11400000, guid: b872cf05a5756f5459b88555fd3c6303, type: 2}
+  - {fileID: 11400000, guid: 0becbae7d99f2ba4d89471c1d7c54e64, type: 2}
+  - {fileID: 11400000, guid: 2c58c5d5448644448823a82bca5fe07e, type: 2}
+  - {fileID: 11400000, guid: d636efd2508ecd446bff567e12b3588e, type: 2}

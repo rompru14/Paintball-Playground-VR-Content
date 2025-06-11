@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e657808b4da06f409cf637136134934, type: 3}
+  m_Name: Pack_Weapon_Default
+  m_EditorClassIdentifier: 
+  Sku: MRK_TPM_T_1_1
+  Grade: T0
+  Category: 2
+  Moderator: 0
+  Show: 1
+  Skins:
+  - {fileID: 11400000, guid: 8c6cffd8e81f0514ea0c0b112cd8fd21, type: 2}
+  - {fileID: 11400000, guid: 2eb9e34c299f9c946adc34c975a88de8, type: 2}
+  - {fileID: 11400000, guid: 4bce6d8f5cf7bdf4b83f85ba2695f18e, type: 2}
+  - {fileID: 11400000, guid: 7364021d19f95d348946630bcd91932a, type: 2}
+  - {fileID: 11400000, guid: 68c88f8a1d7b6d042855bfe8d7b6f6ad, type: 2}
+  - {fileID: 11400000, guid: c8d68e3048873f94e9149eb9b28990d1, type: 2}

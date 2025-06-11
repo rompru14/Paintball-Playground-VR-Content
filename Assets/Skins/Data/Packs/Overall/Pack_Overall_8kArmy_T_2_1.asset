@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e657808b4da06f409cf637136134934, type: 3}
+  m_Name: Pack_Overall_8kArmy_T_2_1
+  m_EditorClassIdentifier: 
+  Sku: OUT_8KA_T_2_1
+  Grade: T2
+  Category: 16
+  Moderator: 0
+  Show: 1
+  Skins:
+  - {fileID: 11400000, guid: 392d0b70d3e62314f966bde9b4cfca26, type: 2}
+  - {fileID: 11400000, guid: e71140e209ae099418a2d7084d981bd4, type: 2}
+  - {fileID: 11400000, guid: b6b09bcdf1468c349a7187767dbd43b7, type: 2}
+  - {fileID: 11400000, guid: efb31445ebb1f3042bc6a14a7acba5ba, type: 2}

@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e657808b4da06f409cf637136134934, type: 3}
+  m_Name: Pack_Headband_violence_2 2
+  m_EditorClassIdentifier: 
+  Sku: BND_VIO_T_2_2
+  Grade: T2
+  Category: 8
+  Moderator: 0
+  Show: 1
+  Skins:
+  - {fileID: 11400000, guid: 3b9c787bdd04ae84ba8b625091a50303, type: 2}
+  - {fileID: 11400000, guid: d9c19d2f4ede54d4aa38b1a8b9253ddd, type: 2}
+  - {fileID: 11400000, guid: f2853cec24f10a8428038c0f795b6477, type: 2}
+  - {fileID: 11400000, guid: 7136da1f394adb64289f294a77ea620c, type: 2}

@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e657808b4da06f409cf637136134934, type: 3}
+  m_Name: Pack_Mask_HLW_TS2
+  m_EditorClassIdentifier: 
+  Sku: MSK_HLW_T_S_2
+  Grade: Special
+  Category: 4
+  Moderator: 0
+  Show: 1
+  Skins:
+  - {fileID: 11400000, guid: 69809a36bc7286e4b99fb424f234bae7, type: 2}
+  - {fileID: 11400000, guid: 9f888228c4532d54a8f45840f1dcc326, type: 2}
+  - {fileID: 11400000, guid: e88b355a246b3e14791f38b412bf3e63, type: 2}
+  - {fileID: 11400000, guid: 1654d8fbf2a33304d8e14968b2f9a7e6, type: 2}
+  - {fileID: 11400000, guid: 20c1ecdf40a58a84c9536404935f5472, type: 2}

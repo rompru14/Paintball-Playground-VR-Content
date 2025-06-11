@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e657808b4da06f409cf637136134934, type: 3}
+  m_Name: Pack_Pod_VAK
+  m_EditorClassIdentifier: 
+  Sku: POD_VAK_T_1_1
+  Grade: T1
+  Category: 128
+  Moderator: 0
+  Show: 1
+  Skins:
+  - {fileID: 11400000, guid: 35b71d77782c2204988536f76812fd03, type: 2}
+  - {fileID: 11400000, guid: 6509e8428ce92d346843be5da62960d3, type: 2}
+  - {fileID: 11400000, guid: b9d77618ae9ad6e428a39c0b80ae9b0e, type: 2}
+  - {fileID: 11400000, guid: b10402d689ac8b84ab9d71c667df3675, type: 2}
+  - {fileID: 11400000, guid: 654f2eb985c3a104c88cab1f5ce76855, type: 2}
+  - {fileID: 11400000, guid: 325d271187b5910479a393377c747771, type: 2}

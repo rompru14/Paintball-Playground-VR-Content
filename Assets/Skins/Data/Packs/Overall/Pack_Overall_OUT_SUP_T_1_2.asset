@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e657808b4da06f409cf637136134934, type: 3}
+  m_Name: Pack_Overall_OUT_SUP_T_1_2
+  m_EditorClassIdentifier: 
+  Sku: OUT_SUP_T_1_2
+  Grade: T0
+  Category: 16
+  Moderator: 0
+  Show: 1
+  Skins:
+  - {fileID: 11400000, guid: e05eee588f2a71d42bf297e83c3d6f16, type: 2}
+  - {fileID: 11400000, guid: b0fc56edea61ff54894af1b7c4235289, type: 2}
+  - {fileID: 11400000, guid: 4c2fc79dac6dd8f478c58117cf9cef9e, type: 2}
+  - {fileID: 11400000, guid: 70487aef5cd4eed44af405c3ad419281, type: 2}
+  - {fileID: 11400000, guid: f347d37afadf1ea439a7f3e5cbce2fee, type: 2}
+  - {fileID: 11400000, guid: ee61b867331dddb49bbac48aefcbc3b7, type: 2}

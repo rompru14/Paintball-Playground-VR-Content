@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e657808b4da06f409cf637136134934, type: 3}
+  m_Name: Pack_Headband_Due 2
+  m_EditorClassIdentifier: 
+  Sku: BND_DUE_T_1_2
+  Grade: T1
+  Category: 8
+  Moderator: 0
+  Show: 1
+  Skins:
+  - {fileID: 11400000, guid: 9477f336b4da11b48818bc8be9e8e8fa, type: 2}
+  - {fileID: 11400000, guid: 8f492725e22dc774b98a8ea478cc2bc7, type: 2}
+  - {fileID: 11400000, guid: b335aa04d3c74e349b0f198186f5d63d, type: 2}
+  - {fileID: 11400000, guid: dd07c314f45385f4a8594ffafe185233, type: 2}

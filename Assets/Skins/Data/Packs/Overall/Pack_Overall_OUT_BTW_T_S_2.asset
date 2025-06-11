@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e657808b4da06f409cf637136134934, type: 3}
+  m_Name: Pack_Overall_OUT_BTW_T_S_2
+  m_EditorClassIdentifier: 
+  Sku: OUT_BTW_T_S_2
+  Grade: Special
+  Category: 16
+  Moderator: 0
+  Show: 1
+  Skins:
+  - {fileID: 11400000, guid: 476c799bd0261ef48ac7f22990ddfb9a, type: 2}
+  - {fileID: 11400000, guid: 4b3a16e24c5682d4187b109f78f8f43b, type: 2}
+  - {fileID: 11400000, guid: e7707f8b8e7e04e40bb054d1daf94b41, type: 2}
+  - {fileID: 11400000, guid: 66d3675f0b63155489f96f9698dd8a98, type: 2}
+  - {fileID: 11400000, guid: 1ae92da33007e8242a8a08ff9fdc49b0, type: 2}
+  - {fileID: 11400000, guid: 7ae091f9788dfe04780c3c098b3bf3de, type: 2}

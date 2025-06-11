@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e657808b4da06f409cf637136134934, type: 3}
+  m_Name: Pack_Pod_HLW_TS2
+  m_EditorClassIdentifier: 
+  Sku: POD_HLW_T_S_2
+  Grade: Special
+  Category: 128
+  Moderator: 0
+  Show: 1
+  Skins:
+  - {fileID: 11400000, guid: a44f1343338bc054a85004804eca90f8, type: 2}
+  - {fileID: 11400000, guid: 8a5861f8bd92e9944808dc29d47c7ab2, type: 2}
+  - {fileID: 11400000, guid: aa5c95bd6ff2b9740825a962b720cb9c, type: 2}
+  - {fileID: 11400000, guid: 957b1dfe3ac165c4181a415bb043ae75, type: 2}
+  - {fileID: 11400000, guid: 1392dbf566bcfdd4999c2de4baf0b1c3, type: 2}

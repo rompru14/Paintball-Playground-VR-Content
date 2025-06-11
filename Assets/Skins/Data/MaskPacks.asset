@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a269d18f0252874a88e9798ffe26e35, type: 3}
+  m_Name: MaskPacks
+  m_EditorClassIdentifier: 
+  Category: 4
+  Grades: {fileID: 11400000, guid: 2645d82b5f03cf3409d13b178774e0dc, type: 2}
+  Show: 1
+  Packs:
+  - {fileID: 11400000, guid: 9f9daeeb9257ceb4993307655f700d8b, type: 2}
+  - {fileID: 11400000, guid: 350865d00fe70a043a1b8e53f7c8035a, type: 2}
+  - {fileID: 11400000, guid: 5c051e02140262745b1113bb1fbeec2f, type: 2}
+  - {fileID: 11400000, guid: 2c0ea9eb81ec0c34e9ab2a8739639187, type: 2}
+  - {fileID: 11400000, guid: 1aee214d07d9ceb4ca960546d8d7f31d, type: 2}
+  - {fileID: 11400000, guid: 606ef1891d745a04ab115ce720c2f037, type: 2}
+  - {fileID: 11400000, guid: 4456b5af2799aca4f9e88d298dfc3d19, type: 2}
+  - {fileID: 11400000, guid: 4fcf3797ad654ee4184cde9f97bea2c5, type: 2}
+  - {fileID: 11400000, guid: bfc4faedcb0c65c478fdff458e716a9c, type: 2}
+  - {fileID: 11400000, guid: 3a20828d53fb3864f8e170b041aefe51, type: 2}
+  - {fileID: 11400000, guid: ae6ca106077a8f14188bc8ea5d15f77c, type: 2}
+  - {fileID: 11400000, guid: 4f008f7638b4f7d40a84c475d248b449, type: 2}
+  - {fileID: 11400000, guid: b4d076a4fb58055499ec18edf5035330, type: 2}
+  - {fileID: 11400000, guid: 25a2562612f9c0b4e95a60eff356abd2, type: 2}
+  - {fileID: 11400000, guid: a37d723473e256043968ed527b934220, type: 2}
+  - {fileID: 11400000, guid: 37f62020153ab764fbc730bc3f9e4760, type: 2}
+  - {fileID: 11400000, guid: 5b2218d6340ae1f4aa02c6917e959067, type: 2}
+  - {fileID: 11400000, guid: 289f312cc842a944192e02b93c373704, type: 2}
+  - {fileID: 11400000, guid: eafedcab2a273c342946d903ad4be9ea, type: 2}
+  - {fileID: 11400000, guid: 4fc56800059bb6148b6c35c5ba7bfde2, type: 2}
+  - {fileID: 11400000, guid: d17580b9cc6208e47870d4730088ec70, type: 2}

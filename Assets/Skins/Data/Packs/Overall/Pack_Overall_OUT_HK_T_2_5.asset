@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e657808b4da06f409cf637136134934, type: 3}
+  m_Name: Pack_Overall_OUT_HK_T_2_5
+  m_EditorClassIdentifier: 
+  Sku: OUT_HK_T_2_5
+  Grade: T2
+  Category: 16
+  Moderator: 0
+  Show: 1
+  Skins:
+  - {fileID: 11400000, guid: 187b0ac8b57ded74da70f2fc313ab710, type: 2}
+  - {fileID: 11400000, guid: 5fc50b0486b7d3d4ab52a8e90e7299b4, type: 2}
+  - {fileID: 11400000, guid: bd11aeb21475b0f42ae0a2055a03e098, type: 2}
+  - {fileID: 11400000, guid: 62f2ede503ff922469aa9aa759bc54d3, type: 2}

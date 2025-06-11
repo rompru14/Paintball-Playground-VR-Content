@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e657808b4da06f409cf637136134934, type: 3}
+  m_Name: Pack_Headband_STY
+  m_EditorClassIdentifier: 
+  Sku: BND_STY_T_1_1
+  Grade: T0
+  Category: 8
+  Moderator: 0
+  Show: 1
+  Skins:
+  - {fileID: 11400000, guid: 57c45f90a8655cc4d8ef47829c1d6ed0, type: 2}
+  - {fileID: 11400000, guid: fd1e6384914328f4f8fcba20afe6a58f, type: 2}
+  - {fileID: 11400000, guid: 36f9c09e014d5494e82c60553ff41216, type: 2}

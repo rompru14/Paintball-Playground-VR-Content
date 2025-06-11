@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e657808b4da06f409cf637136134934, type: 3}
+  m_Name: Pack_Weapon_HLW_TS2
+  m_EditorClassIdentifier: 
+  Sku: MRK_HLW_T_S_2
+  Grade: Special
+  Category: 2
+  Moderator: 0
+  Show: 1
+  Skins:
+  - {fileID: 11400000, guid: 70e58fec1cc2f8e4192bc06c94c870f8, type: 2}
+  - {fileID: 11400000, guid: 5a8ba8d5ce4803942a36f716c45f2219, type: 2}
+  - {fileID: 11400000, guid: f8105648e3632c04ca4c2aeeca158c00, type: 2}
+  - {fileID: 11400000, guid: 00500799f35c77d49a464af18940032d, type: 2}
+  - {fileID: 11400000, guid: f70061dd0deb0ed4b8291607e537a763, type: 2}

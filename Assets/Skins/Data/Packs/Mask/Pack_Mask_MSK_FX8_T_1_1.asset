@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e657808b4da06f409cf637136134934, type: 3}
+  m_Name: Pack_Mask_MSK_FX8_T_1_1
+  m_EditorClassIdentifier: 
+  Sku: MSK_FX8_T_1_1
+  Grade: T1
+  Category: 4
+  Moderator: 0
+  Show: 1
+  Skins:
+  - {fileID: 11400000, guid: 38be8fb3dfd36ea40991fea360a69970, type: 2}
+  - {fileID: 11400000, guid: 83ffe87ea0840824b883b72f9ff4b140, type: 2}
+  - {fileID: 11400000, guid: 57c89e84d323f2f4fbf961e5d42e9ec8, type: 2}
+  - {fileID: 11400000, guid: 359b11b09ab4b0e419b0f0a59dc56004, type: 2}

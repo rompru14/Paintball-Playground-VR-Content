@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e657808b4da06f409cf637136134934, type: 3}
+  m_Name: Pack_Mask_EVS_T12
+  m_EditorClassIdentifier: 
+  Sku: MSK_EVS_T_1_2
+  Grade: T1
+  Category: 4
+  Moderator: 0
+  Show: 1
+  Skins:
+  - {fileID: 11400000, guid: da571d96a12129b4a93f126291c8af6f, type: 2}
+  - {fileID: 11400000, guid: 4f9831dfdb6a59447b6fe420840f7a48, type: 2}
+  - {fileID: 11400000, guid: 0b3b16c00f1a20b41930682250d00a6f, type: 2}
+  - {fileID: 11400000, guid: d0aaee307404809448ca34916410cd40, type: 2}

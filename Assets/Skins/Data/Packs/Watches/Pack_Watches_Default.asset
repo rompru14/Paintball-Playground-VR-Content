@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e657808b4da06f409cf637136134934, type: 3}
+  m_Name: Pack_Watches_Default
+  m_EditorClassIdentifier: 
+  Sku: WCH_RAY_T_1_1
+  Grade: T0
+  Category: 64
+  Moderator: 0
+  Show: 1
+  Skins:
+  - {fileID: 11400000, guid: 0de85ac3b4893404fbc5c95317a16c29, type: 2}
+  - {fileID: 11400000, guid: ef6bed2856d91ef4f8e0883acc083dfb, type: 2}
+  - {fileID: 11400000, guid: 7a32c86bbb2fcf242bd277e5076b5c82, type: 2}

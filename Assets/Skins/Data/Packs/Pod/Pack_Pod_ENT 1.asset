@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e657808b4da06f409cf637136134934, type: 3}
+  m_Name: Pack_Pod_ENT 1
+  m_EditorClassIdentifier: 
+  Sku: POD_ENT_T_2_1
+  Grade: T2
+  Category: 128
+  Moderator: 0
+  Show: 1
+  Skins:
+  - {fileID: 11400000, guid: ebe87cc11e9c22b4e83837191ac2ae99, type: 2}
+  - {fileID: 11400000, guid: cfe9dc95f14ee5c40a5c522dab9e7c07, type: 2}
+  - {fileID: 11400000, guid: 0985e08d4e0c96b429367b94bb40b2cf, type: 2}
+  - {fileID: 11400000, guid: 137d8f059c9ac41438f63bf7ce0337e1, type: 2}

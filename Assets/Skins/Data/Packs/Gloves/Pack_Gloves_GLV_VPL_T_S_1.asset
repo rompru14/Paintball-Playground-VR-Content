@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e657808b4da06f409cf637136134934, type: 3}
+  m_Name: Pack_Gloves_GLV_VPL_T_S_1
+  m_EditorClassIdentifier: 
+  Sku: GLV_VPL_T_S_1
+  Grade: Special
+  Category: 32
+  Moderator: 0
+  Show: 1
+  Skins:
+  - {fileID: 11400000, guid: 05c782a2c0f811b41836c8933cd18da7, type: 2}
+  - {fileID: 11400000, guid: 1adba136e582acc489411b1954ee9d74, type: 2}
+  - {fileID: 11400000, guid: b5c0d0143a9edfc44aeb5f320f9d8507, type: 2}
+  - {fileID: 11400000, guid: e7aedef42d0ac2d4f8eb45e730758d33, type: 2}
+  - {fileID: 11400000, guid: 30675aa4ba37f2548858129274d1f0ed, type: 2}
+  - {fileID: 11400000, guid: fef64a9fc8a965e4dacd7b1eeb0cb124, type: 2}
