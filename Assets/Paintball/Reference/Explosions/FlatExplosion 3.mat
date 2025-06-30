@@ -11,6 +11,7 @@ Material:
   m_Shader: {fileID: -6465566751694194690, guid: d8c8365ba29a9ed48a816b798854b2a1,
     type: 3}
   m_ValidKeywords:
+  - _ALPHATEST_ON
   - _SURFACE_TYPE_TRANSPARENT
   m_InvalidKeywords: []
   m_LightmapFlags: 4
@@ -84,7 +85,7 @@ Material:
     m_Ints: []
     m_Floats:
     - Vector1_75fd41fb623d42e0bee79415c2b60a4e: 0
-    - _AlphaClip: 0
+    - _AlphaClip: 1
     - _AlphaToMask: 0
     - _Blend: 0
     - _BlendOp: 0
